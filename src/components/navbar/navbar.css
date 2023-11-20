@@ -1,0 +1,25 @@
+.navbar{
+    height: 100px;
+    /* width: 100%; */
+    background-color: var(--main);
+    color: var(--grey);
+}
+
+.wrapper{
+    margin: auto;
+    width: 70%;
+    max-width: 1366px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+span{
+    font-weight: bold;
+}
+
+.social{
+    display: flex;
+    gap: 10px;
+}

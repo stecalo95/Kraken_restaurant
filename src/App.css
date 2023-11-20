@@ -1,0 +1,46 @@
+/* GENERALI */
+
+html{
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Satoshi', sans-serif;
+}
+
+body{
+  background-color: var(--grey);
+  color: #000111;
+}
+
+a{
+  text-decoration: none !important;
+  color: inherit !important;
+} 
+
+
+section{
+  /* height: 100vh; */
+}
+
+/* FONT */
+
+@font-face {
+  font-family: 'Satoshi' ;
+  src: url(../src/media/Satoshi-Black.otf) format('opentype');
+}
+
+/* ROOT */
+
+:root{
+  --black: #000111;
+  --white: #f7f7f7;
+  --main : rgb(20, 33, 61);
+  --sec: #FCA311;
+  --grey: #e5e5e5;
+}

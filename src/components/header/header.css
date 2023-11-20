@@ -1,0 +1,68 @@
+.header{
+    height: calc(100vh - 100px);
+    overflow: hidden;
+    /* background: url(../../media/header.png) no-repeat;
+    background-size: cover; */
+    background: linear-gradient(180deg, rgb(20, 33, 61),rgba(20, 33, 61,0.8));
+    position: relative;
+    
+}
+
+.headerWrapper{
+    max-width: 1366px;
+    height: 100%;
+    margin: auto;
+}
+
+.textContainer{
+    padding: 40px;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.textContainer h2{
+    font-size: 20px;
+    color: var(--sec);
+    letter-spacing: 10px;
+}
+
+.textContainer h1{
+    font-size: 80px;
+    color: var(--white);
+    letter-spacing: 10px;
+}
+
+.buttons button{
+   padding: 20px;
+   border: 1px solid var(--sec);
+   background-color: var(--sec);
+   border-radius: 20px;
+   color: var(--black);
+   cursor: pointer;
+}
+
+.logo{
+    width: 600px;
+}
+
+.imageContainer{
+    height: 100%;
+    position: absolute;
+    top: 200px;
+    right: -30px;
+}
+
+.slidingTextContainer{
+    position: absolute;
+    font-size: 50vh;
+    bottom: -120px;
+    white-space: nowrap;
+    color: #fca2110e;
+    width: 50%;
+    font-weight: bold;
+    
+}

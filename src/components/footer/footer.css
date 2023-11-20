@@ -1,0 +1,18 @@
+.footer{
+    height: fit-content;
+    /* background: linear-gradient(180deg,rgba(20, 33, 61,0.8), rgb(20, 33, 61)); */
+    background-color: var(--main);
+    padding: 40px;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer h6{
+    color: var(--sec);
+}
+
+.footer ul li{
+    color: var(--white);
+}
